@@ -1,0 +1,310 @@
+/*Default Color #FFBF29*/
+
+::selection {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+::-moz-selection {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffbf29;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav .open > .nav-link {
+    color: #ffbf29;
+}
+
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+/*banner*/
+
+#particles-js {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.particles_button ul li a:hover {
+    color: #2ac46c;
+}
+
+
+ul.breadcrumb .active a {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.coin-stat-bar li i {
+    border: 3px solid #2ac46c;
+}
+
+.coin-stat-bar li i:hover {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.coin-stat-bar li h6 {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.coinmarketcap-currency-widget > div span a {
+    color: #2ac46c!Important;
+}
+
+.stats-item h6 {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.single-feature:hover .feature-icon {
+    border: 2px solid #2ac46c;
+}
+
+.single-feature:hover .feature-icon:after {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+
+.team_v1 ul li a:hover {
+    color: #2ac46c;
+}
+
+.pricing span {
+    color: #2ac46c;
+}
+
+.testimonial ul li i {
+    color: #2ac46c;
+}
+
+.post_v1 .post_v1_content span strong {
+    color: #2ac46c;
+}
+
+.post_v1 a {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.create_account .form-control:focus {
+    border-color: #2ac46c;
+}
+
+.newsletter input[type=submit] {
+    background: #4dc437;
+}
+
+.post .the_title a:hover {
+    color: #2ac46c;
+}
+
+.post .post_metas a {
+    color: #2ac46c;
+}
+
+.post .readmore a {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.single-post .post_metas a {
+    color: #2ac46c;
+}
+
+.comment-btn {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.reply-commment {
+    padding: 20px 0;
+}
+
+
+.comment-box button {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.page-item.active .page-link {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    border-color: #2ac46c;
+}
+
+.page-link:focus,
+.page-link:hover {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.sidebar .widget .widget-title:after {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.sidebar .widget ul li a:hover {
+    color: #2ac46c;
+}
+
+.sidebar .widget .comment-author-link {
+    color: #2ac46c;
+}
+
+.widget_tag_cloud a:hover {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.portfolio-btn li {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.contact-info h5:after {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.contact-form .cf-btn {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    border: 1px solid #2ac46c;
+}
+
+.product-item .product-item-price b {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.product-item .product-item-retings ul li .fa-star {
+    color: #2ac46c;
+}
+
+.product-item .product-item-btn span {
+    border: 1px solid #2ac46c;
+}
+
+.product-item .product-item-btn a:hover {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.product-item .product-item-btn a:nth-child(2) {
+    border-right: 1px solid #2ac46c;
+    border-left: 1px solid #2ac46c;
+}
+
+.product-item-list .product-item-price b {
+    color: #2ac46c;
+    border: 1px solid #2ac46c;
+}
+
+.product-item-list .product-item-retings ul li .fa-star {
+    color: #2ac46c;
+}
+
+.product-item-list .product-item-btn a {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.shop-result-count span {
+    color: #2ac46c;
+}
+
+.shop-sorting .active {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.shop-sorting i {
+    color: #2ac46c;
+    border: 1px solid #2ac46c;
+}
+
+.shop-sorting form .orderby {
+    border: 1px solid #2ac46c;
+}
+
+.shop-sidebar .widget .widget-title:after {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.shop-sidebar .widget ul li a:hover {
+    color: #2ac46c;
+}
+
+.shop-sidebar .widget .comment-author-link {
+    color: #2ac46c;
+}
+
+.footer_bottom p a {
+    color: #2ac46c;
+}
+
+
+footer .widget .widget_content form input[type=submit] {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.jtline .filling-line {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+}
+
+.no-touch .jtline .events a:hover::after {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    border-color: #2ac46c;
+}
+
+.jtline .events a.selected::after {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    border-color: #2ac46c;
+}
+
+.jtline .events a.older-event::after {
+    border-color: #2ac46c;
+}
+
+.no-touch .cd-timeline-navigation a:hover {
+    border-color: #2ac46c;
+}
+
+#backtotop i {
+    color: #ffbf29;
+}
+
+
+#backtotop i:hover,.single-product-description ul li i,.single-product-price b,.single-product-retings ul li .fa-star {
+    color: #ffbf29;
+}
+.single-product-details .nav-tabs {
+    border-bottom: 3px solid #2ac46c;
+}
+.single-product-variable .form-control{
+    border: 2px solid #2ac46c;
+}
+.single-product-details .nav-tabs .nav-link,
+.single-product-details .nav-tabs .nav-link.active,
+.single-product-details .nav-tabs .nav-link:hover{
+    border: 1px solid #2ac46c;
+}

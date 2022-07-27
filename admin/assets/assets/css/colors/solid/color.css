@@ -1,0 +1,279 @@
+/*Default Color #FFBF29*/
+
+::selection {
+    background: #FFBF29;
+}
+
+::-moz-selection {
+    background: #FFBF29;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FFBF29;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav .open > .nav-link {
+    color: #FFBF29;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background: #FFBF29;
+}
+
+/*banner*/
+
+#particles-js {
+    background-image: -webkit-linear-gradient(0deg, #FFBF29 0%, #FFBF29 100%);
+    background-image: -ms-linear-gradient(0deg, #FFBF29 0%, #FFBF29 100%);
+}
+
+.particles_button ul li a:hover {
+    color: #FFBF29;
+}
+
+
+ul.breadcrumb .active a {
+    background: #FFBF29;
+}
+
+.coin-stat-bar li i {
+    border: 3px solid #FFBF29;
+}
+
+.coin-stat-bar li i:hover {
+    background: #FFBF29;
+}
+
+.coin-stat-bar li h6 {
+    background: #FFBF29;
+}
+
+.coinmarketcap-currency-widget > div span a {
+    color: #FFBF29!Important;
+}
+
+.stats-item h6 {
+    background: #FFBF29;
+}
+
+.single-feature:hover .feature-icon {
+    border: 2px solid #FFBF29;
+}
+
+.single-feature:hover .feature-icon:after {
+    background: #FFBF29;
+}
+
+
+.team_v1 ul li a:hover {
+    color: #FFBF29;
+}
+
+.pricing span {
+    color: #FFBF29;
+}
+
+.testimonial ul li i {
+    color: #FFBF29;
+}
+
+.post_v1 .post_v1_content span strong {
+    color: #FFBF29;
+}
+
+.post_v1 a {
+    background: #FFBF29;
+}
+
+.create_account .form-control:focus {
+    border-color: #FFBF29;
+}
+
+.newsletter input[type=submit] {
+    background: #4dc437;
+}
+
+.post .the_title a:hover {
+    color: #FFBF29;
+}
+
+.post .post_metas a {
+    color: #FFBF29;
+}
+
+.post .readmore a {
+    background: #FFBF29;
+}
+.single-post .post_metas a {
+    color: #FFBF29;
+}
+
+.comment-btn {
+    background: #FFBF29;
+}
+.reply-commment {
+    padding: 20px 0;
+}
+
+
+.comment-box button {
+    background: #FFBF29;
+}
+
+.page-item.active .page-link {
+    background: #FFBF29;
+    border-color: #FFBF29;
+}
+
+.page-link:focus,
+.page-link:hover {
+    background-color: #FFBF29;
+}
+
+.sidebar .widget .widget-title:after {
+    background: #FFBF29;
+}
+
+.sidebar .widget ul li a:hover {
+    color: #FFBF29;
+}
+
+.sidebar .widget .comment-author-link {
+    color: #FFBF29;
+}
+
+.widget_tag_cloud a:hover {
+    background: #FFBF29;
+}
+
+.portfolio-btn li {
+    background: #FFBF29;
+}
+
+.contact-info h5:after {
+    background: #FFBF29;
+}
+
+.contact-form .cf-btn {
+    background: #FFBF29;
+    border: 1px solid #FFBF29;
+}
+
+.product-item .product-item-price b {
+    background: #FFBF29;
+}
+
+.product-item .product-item-retings ul li .fa-star{
+    color: #FFBF29;
+}
+
+.product-item .product-item-btn span {
+    border: 1px solid #FFBF29;
+}
+
+.product-item .product-item-btn a:hover {
+    background: #FFBF29;
+}
+.product-item .product-item-btn a:nth-child(2) {
+    border-right: 1px solid #FFBF29;
+    border-left: 1px solid #FFBF29;
+}
+
+.product-item-list .product-item-price b {
+    color: #FFBF29;
+    border: 1px solid #FFBF29;
+}
+
+.product-item-list .product-item-retings ul li .fa-star{
+    color: #FFBF29;
+}
+
+.product-item-list .product-item-btn a {
+    background: #FFBF29;
+}
+.shop-result-count span {
+    color: #FFBF29;
+}
+
+.shop-sorting .active {
+    background: #FFBF29;
+}
+
+.shop-sorting i {
+    color: #FFBF29;
+    border: 1px solid #FFBF29;
+}
+.shop-sorting form .orderby {
+    border: 1px solid #FFBF29;
+}
+
+.shop-sidebar .widget .widget-title:after {
+    background: #FFBF29;
+}
+
+.shop-sidebar .widget ul li a:hover {
+    color: #FFBF29;
+}
+
+.shop-sidebar .widget .comment-author-link {
+    color: #FFBF29;
+}
+
+.footer_bottom p a {
+    color: #FFBF29;
+}
+
+
+footer .widget .widget_content form input[type=submit] {
+    background: #FFBF29;
+}
+
+.jtline .filling-line {
+    background-color: #FFBF29;
+}
+
+.no-touch .jtline .events a:hover::after {
+    background-color: #FFBF29;
+    border-color: #FFBF29;
+}
+
+.jtline .events a.selected::after {
+    background-color: #FFBF29;
+    border-color: #FFBF29;
+}
+
+.jtline .events a.older-event::after {
+    border-color: #FFBF29;
+}
+
+.no-touch .cd-timeline-navigation a:hover {
+    border-color: #FFBF29;
+}
+
+#backtotop i {
+    color: #FFBF29;
+}
+.section-count ,.button ul li a,.section-call-to-action,.pricing a,.navbar .join-btn,.single-product-details .nav-tabs .nav-link.active,
+.single-product-details .card-header {
+    background: #FFBF29;
+}
+
+#backtotop i:hover,.single-product-description ul li i,.single-product-price b,.single-product-retings ul li .fa-star {
+    color: #FFBF29;
+}
+.single-product-details .nav-tabs {
+    border-bottom: 3px solid #FFBF29;
+}
+.single-product-variable .form-control{
+    border: 2px solid #FFBF29;
+}
+.single-product-details .nav-tabs .nav-link,
+.single-product-details .nav-tabs .nav-link.active,
+.single-product-details .nav-tabs .nav-link:hover{
+    border: 1px solid #FFBF29;
+}

@@ -1,0 +1,1079 @@
+
+<!DOCTYPE html>
+<html lang="en" data-ng-app="myApp" data-ng-controller="myCtrl">
+
+<head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Site Title-->
+    <title>ZilliquaInvest</title>
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/preset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" id="triggerColor" href="assets/css/colors/solid/color.css">
+    <link rel="stylesheet" id="grad_triggerColor" href="assets/css/colors/gradient/color.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+
+
+    
+    <!--navbar-->
+    <nav class="navbar navbar-toggleable-md fixed-top navbar-light">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+      </button>
+        <a class="navbar-brand" href="index.html"><h2 style="color: white"><b>Zilliqua Invest</b></h2></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav justify-content-center mx-auto">
+                <!-- Dropdown -->
+                <li class="nav-item">
+                    <a class="nav-link data-scroll active" href="index.html">HOME</a>
+                    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-scroll href="#about">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-scroll href="#wallet">HOW IT WORKS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-scroll href="#services">WHAT WE DO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-scroll href="#exchange">MARKET PRICE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-scroll href="#pricing">TRANSACTIONS</a>
+                </li>
+                
+            </ul>
+             <form class="form-inline my-2 my-lg-0">
+                 <div class="btn-group">
+                            <div class="user-settings no-bg">
+                                <a href="user/login"><button type="button" class="join-btn">
+                                   <strong>JOIN NOW</strong>
+                                </button></a>
+                                <!-- <div class="dropdown-menu">
+                                   
+                                   <ul>
+                                    <li><a class="dropdown-item" href="http://18.188.45.2/user/login"><i class="fa fa-sign-out"></i>
+                                        Log in</a></li>
+                                        <li><a class="dropdown-item" href="http://18.188.45.2/user/register"><i class="fa fa-sign-out"></i>
+                                        Register</a></li>
+                                        </ul>
+                                </div> -->
+                            </div>
+                        </div>
+                
+            </form>
+        </div>
+    </nav>
+    <!--/.navbar-->
+
+    <!-- particles.js container -->
+    <div id="particles-js" class="particles-js-img">
+        <div class="container">
+            <div class="particles_content">
+                <div class="col-sm-12  text-center">
+                    <h2>Zilliqua Lending and Borrowing now made easier.</h2>
+                    
+                    <div class="particles_button">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#wallet" style="background-color: #fff;">Learn More</a></li>
+                            <li class="list-inline-item"><a href="user/login" style="background-color: #fff;">Signup</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#particles.js -->
+
+    <!--#about-->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="coin-stat-bar list-inline text-center">
+                        <li class="list-inline-item"><i class="fa fa-3x fa-bitcoin"></i>
+                            <h6>1 = {{coinPrice['0'].name}}</h6>
+                        </li>
+                        <li class="list-inline-item"><i class="fa fa-3x fa-dollar"></i>
+                            <h6>{{coinPrice['0'].price_usd}} = USD</h6>
+                        </li>
+                        <li class="list-inline-item"><i class="fa fa-3x fa-bar-chart"></i>
+                            <h6>Today</h6>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12">
+                    <div class="white-space" style="padding: 35px 0"></div>
+                </div>
+
+                <div class="col-sm-6">
+                    <img class="img-fluid" src="assets/images/spinner.gif" data-src="assets/images/bitcoins.png" alt="image">
+                    <div class="hidden-sm-up">
+                        <div class="white-space" style="padding: 25px 0"></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="wbitcoin">
+                        <div class="section-title">
+                            <h2>ABOUT ZilliquaInvest</h2>
+                        </div>
+
+                        <div class="white-space" style="padding: 15px 0"></div>
+                        <p>Zilliqua lending business is very similar to the legacy money lending business. Investors who want to double their Crypto invest their reserve of cryptocurrency/ Bitcoins on the platform. Borrowers who want immediate money borrow from your platform and accept to pay an interest.
+
+                            <br>
+                            <br> ZilliquaInvest is a global marketplace for lending and borrowing, where lenders gain a higher interest for their investment faster than traditional fiat investment products. 
+</p>
+                        <div class="white-space" style="padding: 10px 0"></div>
+                        <div class="button">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="#wallet">Learn more</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--/#about-->
+
+
+
+    <!--#wallet-->
+    <section id="wallet" class="section" style="background: #fafafa;padding: 25px 0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="section-title">
+                        <h2>HOW IT WORKS</h2>
+                    </div>
+                    <div class="white-space" style="padding: 25px 0"></div>
+                    <div class="single-feature">
+                        <div class="feature-icon">
+                            <i class="fa fa-sign-in"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5>SIGN UP</h5>
+                            <p>Sign up with your Personal and Zilliqua wallet details.</p>
+                        </div>
+                    </div>
+                    <div class="single-feature">
+                        <div class="feature-icon">
+                            <i class="fa fa-bitcoin"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5>DEPOSIT</h5>
+                            <p>Deposit Zilliqua as much as you want via Zilliqua.</p>
+                        </div>
+                    </div>
+                    <div class="single-feature">
+                        <div class="feature-icon">
+                            <i class="fa fa-clock-o"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5>WAIT</h5>
+                            <p>Just seat back and relax while system generating you money.</p>
+                        </div>
+                    </div>
+                    <div class="single-feature">
+                        <div class="feature-icon">
+                            <i class="fa fa-repeat"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5>MULTIPLY</h5>
+                            <p>Get double of your deposited amount on your wallet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-sm-2 col-sm-4">
+                    <div class="white-space" style="padding: 50px 0"></div>
+                    <img class="img-fluid" src="assets/images/spinner.gif" data-src="assets/images/wallet.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#wallet-->
+
+    <!--.section-->
+    <section class="section-call-to-action" style="background-color: #2ac46c;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="section-title">
+                        <h2>SETUP YOUR ACCOUNT AND START EARNING A HIGHER INTEREST RATE TODAY!</h2>
+                        <p>ZilliquaInvest offers a premium interest rate for the Zilliquas invested through our platform.</p>
+                    </div>
+                    <div class="white-space" style="padding: 5px 0"></div>
+                    <div class="white-space" style="padding: 5px 0"></div>
+                    <div class="button">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="http://18.188.45.2/user/login" style="background-color: #ffdc48;">Start Earning</a><!--<a href="http://18.188.45.2/user/login">Start Earning</a></li> -->
+                            
+                        </ul>
+                        <!--.section-count ,.button ul li a,.section-call-to-action,.pricing a,.navbar .join-btn,.single-product-details .nav-tabs .nav-link.active,
+.single-product-details .card-header {
+    background-image: -webkit-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%);
+    background-image: -ms-linear-gradient(0deg, #2ac46c 0%, #2ac46c 100%); 
+}-->
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="hidden-sm-up">
+                        <div class="white-space" style="padding: 25px 0"></div>
+                    </div>
+                    <img class="img-fluid" src="assets/images/spinner.gif" data-src="assets/images/bitcoins.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/.section-->
+
+    <!--.section-->
+    <section id="services" class="section" style="padding: 25px !important; ">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title text-center">
+                        <h1>OUR PRODUCTS</h1>
+                    </div>
+                    <div class="white-space" style="padding: 35px 0"></div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="info_box_v1 text-center">
+                        <div class="info_box_v1_icon">
+                            <img class="img-fluid" src="assets/images/spinner.gif" data-src="assets/images/bitcoin.png" alt="icon">
+                        </div>
+                        <div class="info_box_v1_content">
+                            <h5>CLOUD MINING</h5>
+                            <p>Zilliqua Cloud Mining script allows you to run a cryptocurrency mining business.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="info_box_v1 text-center">
+                        <div class="info_box_v1_icon">
+                            <img class="img-fluid" src="assets/images/spinner.gif" data-src="assets/images/dollar.png" alt="icon">
+                        </div>
+                        <div class="info_box_v1_content">
+                            <h5>BIT COMPARE</h5>
+                            <p>Start a Cryptocurrency comparison and ICO listing site easily</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="info_box_v1 text-center">
+                        <div class="info_box_v1_icon">
+                            <img class="img-fluid" src="assets/images/spinner.gif" data-src="assets/images/profits.png" alt="icon">
+                        </div>
+                        <div class="info_box_v1_content">
+                            <h5>CRYPTOCURRENCY EXCHANGE</h5>
+                            <p>Start a full fledged Cryptocurrency Exhchange for trading.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 text-center">
+
+                    <div class="white-space" style="padding: 25px 0"></div>
+                    <div class="button">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="https://bitexchange.systems/add-ons/ "target="_blank">View all our products</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/.section-->
+
+    <!--#exchange-->
+    <section id="exchange" class="section" style="padding: 25px !important; ">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title text-center">
+                        <h1>MARKET PRICE </h1>
+                        <p>Get the latest market price for your cryptocurrency.</p>
+                    </div>
+                </div><br>
+                 <div class="white-space" style="padding: 25px 0"></div>
+                <div class="col-sm-6">
+                    <div class="exch_section">
+                        <div class="section-title">
+                            <h2>ZIL Exchange calculator:</h2>
+                        </div>
+                        <div class="white-space" style="padding: 5px 0"></div>
+                        <p></p>
+                        <div class="white-space" style="padding: 10px 0"></div>
+                        <script>function httpGet(theUrl)
+                        {
+                            var xmlHttp = null;
+
+                            xmlHttp = new XMLHttpRequest();
+                            xmlHttp.open( "GET", theUrl, false );
+                            xmlHttp.send( null );
+                            return xmlHttp.responseText;
+                        }
+
+                        crypt_calc_background_color = typeof crypt_calc_background_color == "undefined" ? "#FFFFFF" : crypt_calc_background_color;
+                        crypt_calc_transperency = typeof crypt_calc_transperency == "undefined" ? true : crypt_calc_transperency;
+                        crypt_calc_border_width = typeof crypt_calc_border_width == "undefined" ? 1 : crypt_calc_border_width;
+                        crypt_calc_border_color = typeof crypt_calc_border_color == "undefined" ? "#CCCCCC" : crypt_calc_border_color;
+                        crypt_calc_border_corners = typeof crypt_calc_border_corners == "undefined" ? "rounded" : crypt_calc_border_corners;
+                        crypt_calc_font_family = typeof crypt_calc_font_family == "undefined" ? "Arial" : crypt_calc_font_family;
+                        crypt_calc_font_size = typeof crypt_calc_font_size == "undefined" ? "medium" : crypt_calc_font_size;
+                        crypt_calc_font_color = typeof crypt_calc_font_color == "undefined" ? "#000000" : crypt_calc_font_color;
+
+                        crypt_calc_options = eval('(' + httpGet("https://api.cryptonator.com/api/currencies") + ')');
+                        crypt_calc_optionsArr = new Array();
+
+                        for (var i = 0; i < crypt_calc_options.rows.length; ++i) {
+                            crypt_calc_optionsArr.push(crypt_calc_options.rows[i].name + " (" + crypt_calc_options.rows[i].code + ")");
+                        }
+
+                        crypt_calc_optionsArr.sort();
+
+                        function outList(item) {
+                            var text = "";
+
+                            for (var i = 0; i < crypt_calc_optionsArr.length; ++i) {
+                                var code = crypt_calc_optionsArr[i].match(/.*?\(([0-9a-z$-]+)\)/i)[1];
+
+                                if (code == item)
+                                    text += '<option value="' + code + '" selected>' +
+                                        crypt_calc_optionsArr[i] + '</option>';
+                                else
+                                    text += '<option value="' + code + '">' +
+                                        crypt_calc_optionsArr[i] + '</option>';
+                            }
+
+                            return text;
+                        }
+
+
+                        if (crypt_calc_transperency)
+                            crypt_calc_background_color = 'transparent';
+
+                        switch (crypt_calc_font_size) {
+                            case 'small':
+                                crypt_calc_font_size = "80%";
+                                break;
+
+                            case 'medium':
+                                crypt_calc_font_size = "100%";
+                                break;
+
+                            case 'large':
+                                crypt_calc_font_size = "150%";
+                                break;
+                        }
+
+                        crypt_calc_style = 'background: ' + crypt_calc_background_color +
+                            '; border: ' + crypt_calc_border_width + 'px solid ' + crypt_calc_border_color + ';' +
+                            'font-family: ' + crypt_calc_font_family +'; font-size: ' + crypt_calc_font_size +
+                            '; color: ' + crypt_calc_font_color + ';';
+
+                        crypt_calc_font_style = 'font-family: ' + crypt_calc_font_family +'; font-size: ' + crypt_calc_font_size + '; height: auto;';
+
+                        if (crypt_calc_border_corners == "square") {
+                            crypt_calc_style += "-webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; border-radius: 0 !important;";
+                        }
+
+                        document.write('\
+                        <div class="cryptonatorwidget" style="border-radius:4px;padding:10px;' + crypt_calc_style + '">\
+                            <table width="100%" cellpadding="6">\
+                                <tr>\
+                                    <td style="width:45%;">\
+                                        <input id="amount-1" type="text" placeholder="enter amount" style="width:100%;' + crypt_calc_font_style + '">\
+                                    </td>\
+                                    <td style="width:55%;">\
+                                        <select id="cur-1" style="width:100%;' + crypt_calc_font_style + '">' + outList("BTC") + '</select>\
+                                    </td>\
+                                </tr>\
+                                <tr>\
+                                    <td style="width:45%;">\
+                                        <input id="amount-2" type="text" placeholder="enter amount" style="width:100%;' + crypt_calc_font_style + '">\
+                                    </td>\
+                                    <td style="width:55%;">\
+                                        <select id="cur-2" style="width:100%;' + crypt_calc_font_style + '">' + outList("USD") + '</select>\
+                                    </td>\
+                                </tr>\
+                            </table>\
+                            <div style="text-align:center;font-size:10px;opacity:0.6;padding-top:10px;">Powered by <a href="https://www.cryptonator.com" style="color:' + crypt_calc_font_color + ';" target="_blank">Cryptonator Zilliqua wallet</a></div>\
+                        </div>');
+
+                        crypt_calc_price12 = 0;
+                        crypt_calc_price21 = 0;
+
+                        function loadRates() {
+                            var crypt_calc_cur1 = document.getElementById('cur-1').value;
+                            var crypt_calc_cur2 = document.getElementById('cur-2').value;
+
+                            var crypt_calc_getPar = eval('(' + httpGet("https://api.cryptonator.com/api/ticker/" +
+                                crypt_calc_cur1 + "-" + crypt_calc_cur2) + ')');
+
+                            if (crypt_calc_getPar.success == true)
+                                crypt_calc_price12 = crypt_calc_getPar.ticker.price;
+                            else
+                                crypt_calc_price12 = 0;
+
+                            crypt_calc_getPar = eval('(' + httpGet("https://api.cryptonator.com/api/ticker/" +
+                                crypt_calc_cur2 + "-" + crypt_calc_cur1) + ')');
+
+                            if (crypt_calc_getPar.success == true)
+                                crypt_calc_price21 = crypt_calc_getPar.ticker.price;
+                            else
+                                crypt_calc_price21 = 0;
+                        }
+
+                        loadRates();
+
+                        document.getElementById('cur-1').onchange = function () {
+                            loadRates();
+                            if (document.getElementById('amount-1').value > 0) {
+                                if (crypt_calc_price12 != 0)
+                                    document.getElementById('amount-2').value = document.getElementById('amount-1').value * crypt_calc_price12;
+                                else
+                                    document.getElementById('amount-2').value = "No price available";
+                            }
+                        }
+
+                        document.getElementById('cur-2').onchange = function () {
+                            loadRates();
+                            if (document.getElementById('amount-2').value > 0) {
+                                if (crypt_calc_price21 != 0)
+                                    document.getElementById('amount-1').value = document.getElementById('amount-2').value * crypt_calc_price21;
+                                else
+                                    document.getElementById('amount-1').value = "No price available";
+                            }
+                        }
+
+                        document.getElementById('amount-1').onkeyup = function () {
+                                if (crypt_calc_price12 != 0)
+                                    document.getElementById('amount-2').value = document.getElementById('amount-1').value * crypt_calc_price12;
+                                else
+                                    document.getElementById('amount-2').value = "No price available";
+                        }
+
+                        document.getElementById('amount-2').onkeyup = function () {
+                            if (crypt_calc_price21 != 0)
+                                document.getElementById('amount-1').value = document.getElementById('amount-2').value * crypt_calc_price21;
+                            else
+                                document.getElementById('amount-1').value = "No price available";
+                        }</script>
+                    </div>
+                    <div class="hidden-sm-up">
+                        <div class="white-space" style="padding: 25px 0"></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="exch_section">
+                        <div class="section-title">
+                            <h2>Current Price:</h2>
+                        </div>
+                        <div class="white-space" style="padding: 20px 0"></div>
+
+                        <div class="coinmarketcap-currency-widget" data-currency="bitcoin" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+                    </div>
+                </div>
+
+              
+            </div>
+        </div>
+    </section>
+    <!--/#exchange-->
+
+    <!--#stats-->
+    <section id="stats" class="section-stats" style="background: #fafafa;">
+        <div class="col-sm-12">
+            <div class="section-title text-center">
+                <h1>Zilliqua Active Markets</h1>
+            </div>
+            <div class="white-space" style="padding: 35px 0"></div>
+        </div>
+        <div class="stats-carousel">
+            <div class="stats-item">
+                <h6>{{coinPrice['0'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['0'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['0'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['0'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['1'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['1'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['1'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['1'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['2'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['2'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['2'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['2'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['3'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['3'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['3'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['3'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['4'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['4'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['4'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['4'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['5'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['5'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['5'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['5'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['6'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['6'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['6'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['6'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['7'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['7'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['7'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['7'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['8'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['8'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['8'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['8'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['9'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['9'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['9'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['9'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['10'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['10'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['10'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['10'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['11'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['11'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['11'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['11'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['12'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['12'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['12'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['12'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['13'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['13'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['13'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['13'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['14'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['14'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['14'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['14'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['15'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['15'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['15'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['15'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['16'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['16'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['16'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['16'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['17'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['17'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['17'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['17'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['18'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['18'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['18'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['18'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['19'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['19'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['19'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['19'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['20'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['20'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['20'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['20'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['21'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['21'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['21'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['21'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['22'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['22'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['22'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['22'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['23'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['23'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['23'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['23'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['24'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['24'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['24'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['24'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['25'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['25'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['25'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['25'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['26'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['26'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['26'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['26'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['27'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['27'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['27'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['27'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['28'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['28'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['28'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['28'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['29'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['29'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['29'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['29'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['30'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['30'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['30'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['30'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['31'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['31'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['31'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['31'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['32'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['32'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['32'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['32'].percent_change_1h}}</li>
+                </ul>
+            </div>
+            <div class="stats-item">
+                <h6>{{coinPrice['33'].symbol}}</h6>
+                <ul>
+                    <li><i class="fa fa-fw fa-usd"></i> : {{coinPrice['33'].price_usd}}</li>
+                    <li><i class="fa fa-fw fa-bitcoin"></i> : {{coinPrice['33'].price_btc}}</li>
+                    <li><i class="fa fa-fw fa-signal"></i> : {{coinPrice['33'].percent_change_1h}}</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--/#stats-->
+
+
+
+   
+   
+
+
+    <!--feedback-->
+    <section id="feedback" class="section" style="background: #fafafa;padding:25px !important ">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title text-center">
+                        <h1>Feedback From Our Investor</h1>
+                        <p>Hear What our current customers have to say before you try BitInvest. </p>
+                    </div>
+                    <div class="white-space" style="padding: 35px 0"></div>
+                </div>
+            </div>
+            <div class="row testimonials">
+                <div class="col-sm-4">
+                    <div class="testimonial">
+                        <img class="img-fluid rounded-circle" src="assets/images/spinner.gif" data-src="assets/images/01.jpg" alt="Face">
+                        <div class="testimonial-content">
+                            <h4> Scarlet Bjorn</h4>
+                            <small>Entrepreneur</small>
+                            <p><i class="fa fa-quote-left"></i> BitInvest is easy to use and has really mutiplied my investment, I'd really recommend it to other Momtrepreneurs. 
+                                <i class="fa fa-quote-right"></i></p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="testimonial">
+                        <img class="img-fluid rounded-circle" src="assets/images/spinner.gif" data-src="assets/images/02.png" alt="Face">
+                        <div class="testimonial-content">
+                            <h4>Nathan Silverman </h4>
+                            <small>Author</small>
+                            <p><i class="fa fa-quote-left"></i> It's crucial for me to make critical investments that work, as I author away my best novel yet. Zilliqua lending has helped me multiply my investment and has given me the financial breathing space.
+                                <i class="fa fa-quote-right"></i></p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="testimonial">
+                        <img class="img-fluid rounded-circle" src="assets/images/spinner.gif" data-src="assets/images/03.jpg" alt="Face">
+                        <div class="testimonial-content">
+                            <h4>Sufjan Stevens</h4>
+                            <small>Musician</small>
+                            <p><i class="fa fa-quote-left"></i> Zilliqua lending at its best, I can be sure that my investments are safe and have a peace of mind
+                                <i class="fa fa-quote-right"></i></p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="testimonial">
+                        <img class="img-fluid rounded-circle" src="assets/images/spinner.gif" data-src="assets/images/04.jpg" alt="Face">
+                        <div class="testimonial-content">
+                            <h4>Sarah Mulligan</h4>
+                            <small>Consultant</small>
+                            <p><i class="fa fa-quote-left"></i> Of all the services I've tried, this Zilliqua lending platform has truly out of the league, the returns provided are many folds higher than what others provide
+                                <i class="fa fa-quote-right"></i></p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+               <!-- <div class="col-sm-4">
+                    <div class="testimonial">
+                        <img class="img-fluid rounded-circle" src="assets/images/spinner.gif" data-src="assets/images/05.jpg" alt="Face">
+                        <div class="testimonial-content">
+                            <h4>Malala Yousuf</h4>
+                            <small>Soft Eng _Microsoft</small>
+                            <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nisi non quibusdam, id error delectus.
+                                <i class="fa fa-quote-right"></i></p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="testimonial">
+                        <img class="img-fluid rounded-circle" src="assets/images/spinner.gif" data-src="assets/images/06.jpg" alt="Face">
+                        <div class="testimonial-content">
+                            <h4>Khadiza</h4>
+                            <small>Soft Eng _Microsoft</small>
+                            <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nisi non quibusdam, id error delectus.
+                                <i class="fa fa-quote-right"></i></p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+    <!--/#feedback-->
+
+
+
+    <!--section-->
+   <!-- <section class="section" style="background: #fafafa">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title text-center">
+                        <h1>Roadmap</h1>
+                    </div>
+                    <div class="white-space" style="padding: 35px 0"></div>
+                    <div class="bitcoinTimeline">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!--/section-->
+
+
+    <!--section-->
+    
+    <section id="pricing" class="section-count" style="background-color: #2ac46c;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="counter_v1">
+                        <i class="fa fa-4x fa-users"></i>
+                        <span class="count">23</span><span>k</span>
+                        <h5>Contributor</h5>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="counter_v1">
+                        <i class="fa fa-4x fa-money"></i>
+                        <span class="count">1352</span>
+                        <h5>Investor</h5>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="counter_v1">
+                        <i class="fa fa-4x fa-bitcoin"></i>
+                        <span>$</span><span class="count">3.3</span><span>M</span>
+                        <h5>Zilliqua Trade</h5>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="counter_v1">
+                        <i class="fa fa-4x fa-headphones"></i>
+                        <span class="count">28.5</span><span>k</span>
+                        <h5>Customer Served</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/.section-->
+
+
+
+    <!--#news-->
+    <section id="news" class="section" style="background: #fafafa; padding: 0px;" >
+       
+    </section>
+    <!--/#news-->
+
+    <!--footer-->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 ">
+                        <div class="widget">
+                            <h5>Get in Touch</h5>
+                            <div class="widget_content">
+                                <ul>
+                                    <li><i class="fa fa-lg fa-map-marker"></i>125 East 11th Street, Parkway Nashville 22536</li>
+                                    <li><i class="fa fa-lg fa-mobile"></i>+123 4567 890</li>
+                                    <li><i class="fa fa-lg fa-envelope-o"></i>info@example.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-3 ">
+                        <div class="widget">
+                            <h5>Follow Us</h5>
+                            <div class="widget_content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+                                    <li><a href="#"><i class="fa fa-telegram"></i>Telegram</a></li>
+                                    <li><a href="#"><i class="fa fa-btc"></i>Bitcion</a></li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="widget">
+                            <h5>Donations</h5>
+                               <div class="widget_content">
+                                <ul>
+                                  <li><img src="http://coincap.levelten.org/public/bitcoin.png" alt="Bitcoin"><a href="#" rel="nofollow"><span class="link_coin">&nbsp;1ECGUKEosEhaZnywCVxw6e1VUcPRqGkhvd</span></a><span class="d-none d-sm-inline">(BTC)</span></li>
+                                  <li><img src="http://coincap.levelten.org/public/litecoin.png" alt="Litecoin"><a href="#"  rel="nofollow"><span class="link_coin">&nbsp;1ECGUKEosEhaZnywCVxw6e1VUcPRqGkhvd</span></a><span class="d-none d-sm-inline">(LTC)</span></li>
+                                  <li><img src="http://coincap.levelten.org/public/bitcoin_cash.png" alt="Bitcoin cash"><a href="#" rel="nofollow"><span class="link_coin">&nbsp;1ECGUKEosEhaZnywCVxw6e1VUcPRqGkhvd</span></a><span class="d-none d-sm-inline">(BCH)</span></li>
+                                  <li><img src="http://coincap.levelten.org/public/ethereum.png" alt="Ethereum"><a href="#" rel="nofollow"><span class="link_coin">&nbsp;1ECGUKEosEhaZnywCVxw6e1VUcPRqGkhvd</span></a><span class="d-none d-sm-inline">(ETH)</span></li>
+                                </ul>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="pull-right">All Right Reserved by <a href="#">BitEXchange</a> © 2018</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/footer-->
+
+
+    <!--======= Back to Top =======-->
+
+    <div id="backtotop"><i class="fa fa-2x fa-arrow-up"></i></div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/tether.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/countdown.js"></script>
+    <script src="assets/js/jquery-waypoints.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/jtline.min.js"></script>
+    <script src="assets/js/currency.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- <script src="assets/js/google-map.js"></script> -->
+    <script src="assets/js/roadmap.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

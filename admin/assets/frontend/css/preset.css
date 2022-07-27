@@ -1,0 +1,179 @@
+/*--------------------------------
+switter
+----------------------------------*/
+
+.rishad_switcher_zone {
+    position: fixed;
+    top: 200px;
+    right: -290px;
+    width: 290px;
+    background: #282828;
+    z-index: 1000;
+}
+
+.switZone_title {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #e6e6e6;
+    -webkit-box-shadow: -2px -2.5px 6px rgb(224, 224, 224);
+    box-shadow: -2px -2.5px 6px rgb(224, 224, 224);
+    padding: 0 0 0 20px;
+    position: relative;
+    width: 290px;
+}
+
+.rishad_switcher_zone p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+a.settingBtn i {
+    -webkit-animation: rotation 2s infinite linear;
+    height: auto;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 27%;
+    width: 50px;
+    color: #FFBF29;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(359deg);
+        -webkit-transform: rotate(359deg);
+        -ms-transform: rotate(359deg);
+    }
+}
+
+a.settingBtn {
+    background: #fff none repeat scroll 0 0;
+    -webkit-box-shadow: -3px -2px 6px rgb(224, 224, 224);
+    box-shadow: -3px -2px 6px rgb(224, 224, 224);
+    color: #fff;
+    font-size: 24px;
+    height: 50px;
+    right: 100%;
+    position: absolute;
+    text-align: center;
+    width: 50px;
+}
+
+.rishad_switcher_inner {
+    background: #fff;
+    -webkit-box-shadow: -2px 2px 6px rgb(224, 224, 224);
+    box-shadow: -2px 2px 6px rgb(224, 224, 224);
+}
+
+.rishad_switcher_single {
+    padding: 50px 20px;
+    background: #fff;
+    -webkit-box-shadow: -2px 2px 6px rgb(224, 224, 224);
+    box-shadow: -2px 2px 6px rgb(224, 224, 224);
+}
+
+.rishad_switcher_single ul li {
+    margin: 0 auto;
+}
+
+.rishad_switcher_single .nav-tabs {
+    border: none;
+}
+
+.rishad_switcher_single .nav-tabs .nav-link {
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    color: #333;
+    width: 100px;
+    text-align: center;
+}
+
+.rishad_switcher_single .nav-tabs .nav-link.active {
+    background: #FFBF29;
+    border: 1px solid #FFBF29;
+    color: #fff;
+}
+
+.rishad_switcher_single .nav > li > a:focus,
+.nav > li > a:hover {
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.rishad_switch {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.rishad_switch a {
+    float: left;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+.grad_color a.color-default {
+    background-color: #FFBF29;
+    background-image: -webkit-linear-gradient(0deg, #FFBF29 0%, #ffe94c 100%);
+    background-image: -ms-linear-gradient(0deg, #FFBF29 0%, #ffe94c 100%);
+
+}
+
+.grad_color a.color1 {
+    background-color: #4776e6;
+    background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+    background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+}
+
+.grad_color a.color2 {
+    background-color: #ff4b41;
+    background-image: -webkit-linear-gradient(0deg, #ff4b41 0%, #c5281d 100%);
+    background-image: -ms-linear-gradient(0deg, #ff4b41 0%, #c5281d 100%);
+
+}
+
+.grad_color a.color3 {
+    background-color: #36dc49;
+    background-image: -webkit-linear-gradient(0deg, #36dc49 0%, #3e9d38 100%);
+    background-image: -ms-linear-gradient(0deg, #36dc49 0%, #3e9d38 100%);
+
+}
+
+.grad_color a.color4 {
+    background-color: #ff8f2d;
+    background-image: -webkit-linear-gradient(0deg, #ff8f2d 0%, #d2641a 100%);
+    background-image: -ms-linear-gradient(0deg, #ff8f2d 0%, #d2641a 100%);
+
+}
+a.color-default {
+    background: #FFBF29;
+}
+
+a.color1 {
+    background: #4776e6;
+}
+
+a.color2 {
+    background: #ff4136;
+}
+
+a.color3 {
+    background: #2ecc40;
+}
+
+a.color4 {
+    background: #ff851b;
+}
+
+.rishad_switch a.active {
+    border: 3px solid #ddd;
+}
